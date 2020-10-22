@@ -1,0 +1,18 @@
+{
+  "name": "todo_ozon",
+  "version": "0.0.1",
+  "description": "Простое тодо приложение",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Paul Yakupov",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
