@@ -1,5 +1,4 @@
-const path = require('path');
-
+var path = require('path');
 module.exports = {
     mode: "development",
     entry: './js/code.ts',
@@ -13,7 +12,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: [ '.tsx', '.ts', '.js' ],
+        extensions: ['.tsx', '.ts', '.js'],
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
